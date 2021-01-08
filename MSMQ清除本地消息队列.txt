@@ -1,0 +1,5 @@
+MessageEnumerator enumerator = queue.GetMessageEnumerator2();
+
+while (enumerator.MoveNext())
+
+enumerator.RemoveCurrent();
